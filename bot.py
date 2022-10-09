@@ -5,7 +5,7 @@ import sqlite3
 
     
 #bot
-TOKEN ='5727167331:AAEkKA1ZmixB8H_1A2A6enllJtV-o9T_81Y'
+TOKEN ='secret'
 bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(commands=['start'])
 def start(message):
